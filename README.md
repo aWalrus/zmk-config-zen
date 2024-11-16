@@ -4,4 +4,4 @@ https://lowprokb.ca/collections/keyboards/products/corne-ish-zen
 
 ## Keymap
 
-![keymap](./my_keymap.svg)
+![keymap](./keymap-drawer/corneish_zen.svg)
