@@ -26,5 +26,8 @@ include:
   - board: nice_nano
     shield: corne_right
   - board: seeeduino_xiao_ble
-    shield: crkbd_dongle prospector_adapter
+    shield: corneish_zen_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: corneish_zen_dongle_with_studio
 
