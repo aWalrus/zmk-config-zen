@@ -14,8 +14,20 @@
 ---
 include:
   - board: corneish_zen_v2_left
+    shield: settings_reset
+    cmake-args: -DCONFIG_ZMK_DISPLAY=n
+  - board: corneish_zen_v2_right
+    shield: settings_reset
+    cmake-args: -DCONFIG_ZMK_DISPLAY=n
+  - board: corneish_zen_v2_left
   - board: corneish_zen_v2_right
   - board: nice_nano
     shield: corne_left
   - board: nice_nano
     shield: corne_right
+  - board: seeeduino_xiao_ble
+    shield: corneish_zen_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: corneish_zen_dongle_with_studio
+
